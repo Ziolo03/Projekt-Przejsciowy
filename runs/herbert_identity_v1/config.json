@@ -1,0 +1,6 @@
+{
+  "name": "herbert_identity_v1",
+  "task": "identity",
+  "max_length": 512,
+  "stride": 128
+}

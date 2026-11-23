@@ -1,0 +1,15 @@
+{
+  "task": "identity",
+  "version": "identity-v1",
+  "architecture": "single_head_herbert",
+  "checkpoint": "model.safetensors",
+  "checkpoint_sha256": "7265173d2014dd2398ac1aac4797da95213080c9dbf12bf5d7f3bd1ac3b29b5b",
+  "source_checkpoint": "runs/herbert_medical_v1/best.safetensors",
+  "source_checkpoint_sha256": "9a6aeec4607e17cf143c8a5c848281d774c8e31c0bd6588ae906b4ba099cdbd1",
+  "heads": [
+    "identity"
+  ],
+  "tensor_count": 201,
+  "exported_parameters": 124469795,
+  "note": "Exact encoder and identity classifier tensors from the existing trained model. No medical/clinical classifier tensors. No retraining or claim of unlearning shared language representations."
+}

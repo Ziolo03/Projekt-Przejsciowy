@@ -1,0 +1,8 @@
+{
+  "task": "identity",
+  "run_name": "herbert_identity_v1",
+  "version": "identity-v1",
+  "detection_heads": [
+    "identity"
+  ]
+}
